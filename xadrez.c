@@ -25,6 +25,25 @@ int main() {
         printf("Torre etapa %d: Cima\n", t);
         t++;
     } while (t<=5);
+
+    // Cavalo 2 passos superior direito
+
+    int c=1;
+
+    while (c<=2)
+    {
+        int f=1;
+        while (f<=2)
+        {
+            printf("Cavalo etapa %d: Cima\n", c);
+            f++;
+        }
+        printf("Cavalo etapa %d: Direita\n", c);
+        
+
+        c++;
+    }
+    
     
 
     return 0;
