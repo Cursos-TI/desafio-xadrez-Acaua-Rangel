@@ -35,10 +35,10 @@ int main() {
         int f=1;
         while (f<=2)
         {
-            printf("Cavalo etapa %d: Cima\n", c);
+            printf("Cavalo etapa %d: Baixo\n", c);
             f++;
         }
-        printf("Cavalo etapa %d: Direita\n", c);
+        printf("Cavalo etapa %d: Esquerda\n", c);
         
 
         c++;
